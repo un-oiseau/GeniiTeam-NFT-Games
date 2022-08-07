@@ -1,0 +1,176 @@
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+@media screen and (min-width: 1360px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .faqs {
+        background-position: 50% 720px;
+        padding-bottom: 355px;
+    }
+    .faq-toggler {
+        justify-content: center;
+    }
+    section {
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 767px) {
+    .ntf-games .card {
+        min-height: 505px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    header h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .head .half-container {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 23px;
+    }
+    p {
+        font-size: 15px;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .d-none-md {
+        display: none;
+    }
+    .d-block-md {
+        display: block;
+    }
+    .bg-contact-form {
+        background: none;
+    }
+    .feet-up-row {
+        display: block;
+    }
+    .contact-section .contact-img {
+        display: none;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=submit],
+    textarea {
+        width: 100%;
+    }
+    .head {
+        background-image: none !important;
+        padding-top: 170px;
+        padding-bottom: 0;
+    }
+    nav ul li a,
+    nav ul li a:hover,
+    nav ul li a:visited {
+        font-size: 25px;
+        margin-bottom: 15px;
+        display: block;
+        font-weight: 800;
+    }
+    .menu {
+        position: static;
+    }
+    .footer-left p {
+        margin-top: 20px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .navbar-cta {
+        position: absolute;
+        right: 75px;
+        top: 0;
+    }
+    nav ul li {
+        padding: 15px 0;
+    }
+    .navbar-collapse.d-flex {
+        display: none!important;
+        padding-top: 30px;
+    }
+    .navbar-collapse.d-flex.show {
+        display: block!important;
+    }
+    .banner .bg1,
+    .banner .bg2 {
+        display: none;
+    }
+    .why-opt {
+        background: none;
+        padding-top: 70px;
+    }
+    .services {
+        background-image: none;
+    }
+    .recent-posts .card-buttons {
+        display: block!important;
+    }
+    .recent-posts .card .game-btn {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .head {
+        color: #898989;
+    }
+    .head a {
+        display: none;
+    }
+    .header-contact a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .perks ul {
+        column-count: 1;
+    }
+    footer .text-right {
+        text-align: center!important;
+    }
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .recent-posts .card {
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navbar-cta {
+        padding: 15px;
+    }
+    .faqs {
+        background-image: none;
+        padding-bottom: 0;
+    }
+}
